@@ -17,11 +17,11 @@ class RoomFactory extends Factory
     public function definition(): array
     {
         return [
-            'roomName'=>fake()->roomname(),
-            'roomDescription'=>fake()->roomdescription(),
-            'roomCapacity'=>fake()->roomcapacity(),
-            'dateFrom'=>fake()->datefrom(),
-            'dateTo'=>fake()->dateto(),
+            'roomName'=>fake()->name(),
+            'roomDescription'=>fake()->description(),
+            'roomCapacity'=>fake()->capacity(),
+            'dateFrom'=>fake()->date(),
+            'dateTo'=>fake()->date(),
             ];
     }
 }

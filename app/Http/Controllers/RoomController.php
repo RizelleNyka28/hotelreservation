@@ -10,6 +10,9 @@ class RoomController extends Controller
     
     public function index()
     {
-        return 'Rooms';
+        //return 'Rooms';
+
+        $data = Room::all();
+        return view('room.index',['rooms'=>$data]);
     }
 }

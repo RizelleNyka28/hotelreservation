@@ -18,7 +18,7 @@ return new class extends Migration
             $table->string('roomCapacity');
             $table->string('dateFrom');
             $table->string('dateTo');
-            $table->timestamps();
+           
         });
     }
 
